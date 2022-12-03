@@ -11,7 +11,7 @@ pipeline {
 			        sh "yum install httpd -y"
 			   }
 		  }
-		  stage ('service-httpd) {
+		  stage ('service-httpd') {
 		      steps {
 			      sh 'service httpd start'
 			  }
